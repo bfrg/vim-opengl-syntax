@@ -3,8 +3,8 @@
 " Language:        C OpenGL
 " Original Author: Marc Costa <beyond.marc@gmail.com>
 " Maintainer:      bfrg <https://github.com/bfrg>
-" Website:         https://github.com/bfrg/opengl.vim
-" Last Change:     Oct 15, 2020
+" Website:         https://github.com/bfrg/vim-opengl-syntax
+" Last Change:     Nov 25, 2020
 " ==============================================================================
 
 

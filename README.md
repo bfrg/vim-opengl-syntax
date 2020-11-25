@@ -1,18 +1,26 @@
-opengl.vim
-========
+# vim-opengl-syntax
 
-OpenGL syntax highlighter for C and C++ source files.
+OpenGL syntax highlighting for C and C++ files in Vim.
 
-Instructions
------------------------------------------------------------
+## Installation
 
-Using the Pathogen plugin:
-(http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/)
+- If you want Vim to automatically load the syntax file for all `c` and `cpp`
+  files, clone this repository into a directory under `~/.vim/pack/*/start/`,
+  where `*` can be _any_ directory name. Example:
+  ```bash
+  $ cd ~/.vim/pack/github-plugins/start
+  $ git clone https://github.com/bfrg/vim-opengl-syntax
+  ```
+- If you prefer to manually load the syntax file only when working on a OpenGL
+  project, clone this repository into `~/.vim/pack/*/opt/`, where `*` can be
+  _any_ directory name. Example:
+  ```bash
+  $ cd ~/.vim/pack/github-plugins/opt
+  $ git clone https://github.com/bfrg/vim-opengl-syntax
+  ```
+  Whenever you work on an OpenGL project, run `:packadd vim-opengl-syntax`, and
+  reload any already opened `c` or `cpp` files.
 
-From your ~/.vim directory:
-> git submodule add git://github.com/beyondmarc/opengl.vim.git bundle/syntax\_opengl
+See `:help packages` and `:help :packadd` for more details.
 
-If not using the Pathogen plugin:
-Add the opengl.vim file into your vim syntax folder (in most Linux distros:
-/usr/share/vim/vim\<version\>/syntax/after/(c|cpp)).
-
+Alternatively, use your favorite plugin manager.
